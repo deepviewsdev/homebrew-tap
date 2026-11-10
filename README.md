@@ -20,7 +20,7 @@ Dictivo updates itself. `brew upgrade --cask dictivo` also works.
 brew uninstall --cask dictivo
 ```
 
-`brew uninstall --zap --cask dictivo` also deletes Dictivo's settings, license file and downloaded models from `~/Library`.
+`brew uninstall --zap --cask dictivo` also deletes Dictivo's settings, license file and downloaded models from `~/Library`. It does not delete the copies Dictivo keeps in the macOS Keychain. To remove those, delete the `com.dictivo.desktop` items in Keychain Access. Full steps: https://dictivo.app/docs/install-and-uninstall/
 
 ## How this tap stays current
 
