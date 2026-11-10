@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-brew install --cask dictivo/tap/dictivo
+brew install --cask deepviewsdev/tap/dictivo
 ```
 
 The cask installs the signed and notarized universal build (Apple Silicon and Intel) from `downloads.dictivo.app`, the same file as the download button on [dictivo.app](https://dictivo.app/).
